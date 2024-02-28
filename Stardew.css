@@ -1,5 +1,39 @@
 img {
-    display: block;
-    margin-left: 415px;
-    margin-right: auto;
-  }
+  display: block;
+  margin-left: 415px;
+  margin-right: auto;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+h2{
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+body {
+  background-image: url(kép/wallpapersden.com_stardew-valley-hd-gaming-background_1668x2388.jpg);
+  background-repeat: auto;
+}
+
+.focim {
+  text-align: center;
+  font-size: 100px;
+  color: antiquewhite;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.megjegyzes {
+  margin-bottom: 6%;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+  background-color: rgb(15, 25, 75, 0.6);
+  
+}
