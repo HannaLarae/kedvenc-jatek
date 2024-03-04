@@ -12,4 +12,7 @@ print("")
 átlagpontszám=összpontszám/len(jatekertekek)
 print("1. megoldás: Összesen: "+str(jatekertekek)+" szó található az összes oldalon.")
 
-print
+print("Az átlagpontszám: "+str(átlagpontszám))
+print("Az ennél nagyobb pontszámot elérő játékok nevét írja egy játékok_pont.txt nevű fájlba, ahol a potn helyére a felhasználó által megadott pontszám kerüljön.")
+Pontérték=input("Adja meg a pontértéket!")
+
