@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Játékok pontszámai</title>
-    <script>
+
         function loadData() {
             const data = [
                 { name: 'Játék 1', points: 10 },
@@ -41,14 +37,9 @@
             link.download = 'játékok_pont.txt';
             link.click();
             URL.revokeObjectURL(url);
-        }
-    </script>
-</head>
-<body onload="loadData()">
-    <h1>Játékok pontszámai</h1>
-    <p id="maxPoints"></p>
-    <p id="minPoints"></p>
-    <p id="avgPoints"></p>
-    <p id="gamesAboveTargetPoints"></p>
-</body>
-</html>
+     onload="loadData()">
+    Játékok pontszámai
+    id="maxPoints"
+    id="minPoints"
+    id="avgPoints"
+    id="gamesAboveTargetPoints
