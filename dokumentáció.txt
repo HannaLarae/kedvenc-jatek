@@ -1,1 +1,1 @@
-
+A weboldalon egy rövid oldalt olvashatunk ahol a Stardew Valley játékot írja le, illusztrációkkal. A weblap alján található kettő python feladat, amit le lehet tölteni és ki lehet próblni. A python feladatok ki írja a pontszámokat bizonyos játékokhoz kapcsolva.
