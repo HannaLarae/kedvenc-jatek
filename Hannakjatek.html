@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>  
     <link rel="stylesheet" href="Stardew.css">
     <title>Kedvenc játék</title>
 </head>
 
 <body>
+    <!--<img class="a" src="kép/stadew.jpg" alt="Stardew Valley borito">-->
     <h1 class="focim">Stardew Valley</h1>
     <div class="container">
         <p class="megjegyzes">A Stardew Valley szimulációs szerepjáték, melyet Eric Barone fejlesztett. A játék 2016
@@ -22,16 +27,154 @@
             eladhatják a terményeket, szocializálódhatnak a falusiakkal, házasságot köthetnek és gyerekeket nevelhetnek.
             A
             játék többjátékos módra is ad lehetőséget.</p>
-    
 
-    <h2>Játékmenet</h2>
 
-    <p>A játék elején a játékosnak ki kell választani a farmja típusát, karakterének kinézetét, a nevét, farmja nevét és
-        kedvenc dolgát.</p>
+        <h2>Játékmenet</h2>
 
-    <p>Ezután a játékos szabadon barangolhat a térképen és vezetheti farmját. A játékban nincsen fő küldetés, csak
-        kisebb, rövidebb küldetések, amiket a teljesítve a játékos pénzjutalmat kap.</p>
+        <p>A játékmenet rendkívül hasonlít a többi mezőgazdasági RPG-hez, mint például a Harvest Moon és a Rune Factory.
+            A
+            játékos irányítja a karakterét, akit személyre szabnak a karakteralkotás során, mivel segít felfrissíteni
+            nagyapjuk farmját, és életre kelteni a jelenleg elhagyott közösségi központot. A karakter vethet növényeket,
+            hajlamos állatokra, és sokféle tárgyat készíthet. Ezen kívül a játékos szintre léphet azzal, hogy
+            tapasztalati
+            pontokat szerez különféle készségekben, például harcban, horgászatban és mezőgazdaságban.</p>
+
+        <p>A játékos pénzt keres, ha tárgyakat ad el a farmjukon található szállítóládán keresztül, közvetlenül a
+            kabinon
+            kívül vagy a helyi boltokban. A játék a négy évszak körül forog, minden szezonban 28 nap van, 1. hétfőtől
+            28.
+            vasárnapig. Minden évszaknak van két nagy eseménye , valamint a falusi születésnapok előre meghatározott
+            dátumai.</p>
+
+        <p>Az idő 10 perces időközönként telik, egy óra játékon belüli idő pedig körülbelül egy perc alatt telik el. A
+            játékos úgy fejezheti be a napot, hogy lefekszik az ágyába és az alvást választja. Lefekvés után a játékos
+            megkapja a bevételi jelentését, amely tükrözi, hogy mennyi pénzt keresett különféle tárgyak eladásával. Nem
+            számít, mikor fekszik le a játékos, mindig reggel 6 órakor ébred fel. A játék egy új nap kezdetén ment.</p>
+
+        <p>A játékos barátságokat köthet más karakterekkel, és "szíveket" szerezhet, utalva a szóban forgó falubelivel
+            való
+            kapcsolatára. A játékos növelheti kapcsolatát egy falubelivel, ha ajándékokat ad nekik, amelyek tetszenek,
+            valamint napi rendszerességgel beszélget a falubelivel. Azok a falusiak, akiket figyelmen kívül hagynak vagy
+            kevésbé kedvező ajándékokat kapnak, kapcsolati pontokat veszítenek. Jelenleg 10 alkalmas legény és legényke
+            van,
+            akiket a játékos feleségül vehet, és végül gyermeket vállalhat.</p><br>
+
+        <!--képek/slideos-->
+        <div class="container" id="kepek">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+              </ul>      
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="kép/farm.jpg" alt="Farm" title="Farm">
+                </div>
+                <div class="carousel-item">
+                  <img src="kép/animals.jpg" alt="Állatok" title="Állatok">
+                </div>
+                <div class="carousel-item">
+                    <img src="kép/event.jpg" alt="Event" title="Event">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="kép/map.jpg" alt="Map" title="Map">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="kép/marry.jpg" alt="Házasodás" title="Házasodás">
+                  </div>
+              </div>      
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+
+        <h2>Cselekmény</h2>
+        <p>A játék azzal kezdődik, hogy a játékos gondozza nagyapját, aki jelenleg a halálos ágyán fekszik. Egy lezárt
+            borítékot nyújt át nekik. Azt mondja a játékosnak, ha a játékost összetörte a modern élet terhe, akkor a
+            játékosnak kell kinyitnia a borítékot.</p>
+
+        <p>Valamivel később, a nagypapa halála után a játékost a JojaCorp-ban, egy megavállalaton belüli fülkéjükben
+            látják dolgozni, és látszólag frusztrált az unalmas életmód miatt. Nagyapjuk szavaira emlékezve a játékos az
+            asztalukhoz nyúl, hogy kinyissa a borítékot. Odabent van egy üzenet a nagypapától, valamint egy buszjegy a
+            Stardew Valley- be .</p>
+
+        <p>A játékos megérkezik a völgybe, és a nagyapja birtoka felé tart. Miután meglátta a farmot benőtt fákkal,
+            kövekkel és rönkökkel, a játékos elindul, hogy új életet kezdjen, nagyapja emlékére.</p><br>
+
+
+
+        <h2>Mezőgazdasági</h2>
+        <p>A gazdálkodás a Stardew Valley- ben végzett tevékenység, amelyet a játékos farmján végeznek . A játékosok
+            magokat vesznek , elültetik a földbe, és termés lesz belőlük . Ezután be kell betakarítani és el kell adni,
+            hogy aranyat ( Arany) készítsenek. A játékos farmolási képességét képességként mérik.</p>
+
+        <p>Több mint 40 növény és gyümölcsfa van.</p><br>
+
+
+        <h2>Halászat</h2>
+        <p>A horgászat olyan tevékenység a Stardew Valley-ben, amely lehetővé teszi a játékos számára, hogy halat fogjon
+            a folyókból, tavakból, az óceánból és a szökőkútból . Horgászbot használata szükséges .</p>
+
+        <h3>Kincs</h3>
+        <p>Időnként egy piros mellkas ikon jelenik meg a bal oldali függőleges sávban a hal ikonnal együtt. Ha a zöld
+            téglát a láda ikon alatt tartja, egy kisebb folyamatjelző sáv jelenik meg a láda felett, hogy megjelenítse a
+            kincs megszerzése felé tett előrehaladást. Amikor a kisebb folyamatjelző sáv megtelik, a tevékenység végén
+            megszerezheti a kincset, de csak akkor, ha a halat is elkapja. A kincs lehet alapvetően bármilyen ásványi
+            műtárgy, vagy akár szemét (néha halcsali).</p><br>
+
+        <h2>Bányászat</h2>
+
+        <p>A bányászat a Stardew Valley -i bányában végzett ásás . Ez segít a játékosnak ásványi alapú nyersanyagokhoz
+            jutni , amelyeket rúdba olvaszthat, eladhat, adományozhat vagy felhasználhat további alkotásokhoz.
+            Bányászatkor a játékosnak tetszőleges számú ellenséget is el kell hárítania a harci képességek segítségével.
+        </p><br>
+
+        <p>Maguk az aknák összesen 120 szintből állnak; ezek véletlenszerűen generálódnak, ahogy halad. 5 szintenként
+            bizonyos értelemben "elmentheti" a fejlődését; vagyis ha az 5. szintre érsz, oda mindig visszatérhetsz, ha
+            lifttel kilépsz a bányából. A bányákban sziklák törésével vagy ellenséggel való harccal haladsz keresztül,
+            és véletlenszerű esélyed van arra, hogy egy létrán egy alacsonyabb szintre ívelj. Azonban elveszítheti
+            hozzáférését ezekhez a szintekhez, ha az egészségi állapotát 0-ra csökkenti, és a játék logikája szerint
+            "elfelejtette" ezeket a szinteket. Ezenkívül elveszíthet tárgyakat, ha egészsége teljesen kimerült, ezért
+            ezt minden áron el kell kerülni. Minden 10 szinten van jutalom. A legfigyelemreméltóbb szint a 100.
+            „csillagcsepp”, amely tartósan növeli a maximális energiát, a 120. szint pedig a csontváz kulcsot.</p>
+
+        <p>A játékosok bányászati ​​képességét készségként mérik; új, a bányászat szempontjából releváns recepteket
+            sajátíthatsz el, és emellett egy 5. szintű speciális készséged is választható extra érc- vagy extra ásványi
+            lehetőség közül.</p><br>
+
+        <h1>Csapattársaim</h1>
+        <p>Mivel ez a HTML weboldal egy projekt feladatra készült el, ezért csapattársaim is készítettek eme kategórival
+            kapcsolatban feldatatot Pythonban. A szöveg alatt le lehet őket tölteni és ki is lehet őket próbálni!</p>
+
+        <a href="Dominik/kedvencjáték.py" download="Dominik Python" target="_blank">
+            <img src="kép/Dominik.jpg" alt="Dominik feladata" width="104" height="142">
+            <p><b>megjegyzés:</b> Ez Dominik Python feladata!</p>
+
+            <a href="Betti/bettipython.py" download="Betti Python">
+                <img src="kép/Betti.jpg" alt="Betti feladata" width="104" height="142">
+                <a href="Betti/játékok.txt" download="Betti Python" target="_blank">
+                    <img src="kép/Betti2.jpg" alt="Betti feladata" width="104" height="142">
+
+                <p><b>megjegyzés:</b> Ez Betti Python feladata! Ha szeretnéd hogy működjön akkor mind kettő linket
+                    töltsd le</p><br>
+            </a>
+            <h3>Források:</h3>
+            <a href="https://stardewvalley.fandom.com/wiki/Mining">Stardew Valley Wiki</a><br>
+            <a href="https://en.wikipedia.org/wiki/Stardew_Valley">Stardew Valley Wikipédia</a><br>
+            <a href="https://www.stardewvalley.net/">Hivatalos Oldala a játéknak</a><br>
     </div>
+
+   
 </body>
 
 </html>
