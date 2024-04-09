@@ -1,9 +1,0 @@
-játéknév;pontszám
-
-1.A program olvassa be, az adatokat egy alkalmas adatszerkezetbe.
-Írja ki a legtöbb és a legkevesebb pontot kapó játék nevét és pontszámát a képernyőre.
-2. Írja ki az átlagpontsámot a képernyőre
-3. Kérdezzen be egy pontszámértéket.
-Az ennél nagyobb pontszámot elérő játékok nevét írja egy játékok_pont.txt nevű fájlba, ahol a potn helyére a felhasználó által megadott pontszám kerüljön.
-
-
